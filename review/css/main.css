@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 8rem auto;
+  padding: 5rem;
+  min-height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 0.4rem 0.9rem 0.3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.4rem 0.9rem 0.3rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+#title {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#person-img {
+  width: 15rem;
+  border-radius: 100%;
+  -webkit-box-shadow: .8rem -.2rem 0 turquoise;
+          box-shadow: .8rem -.2rem 0 turquoise;
+  margin-bottom: 1rem;
+}
+
+#author {
+  text-transform: capitalize;
+  letter-spacing: .2rem;
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+#job {
+  color: turquoise;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.info {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.prev__btn,
+.next__btn {
+  background-color: white;
+  border: none;
+  padding: 0 2rem;
+  color: turquoise;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.random__button {
+  background-color: rgba(64, 224, 208, 0.1);
+  border: 1px solid turquoise;
+  padding: .7rem 4rem;
+  border-radius: .8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+}
